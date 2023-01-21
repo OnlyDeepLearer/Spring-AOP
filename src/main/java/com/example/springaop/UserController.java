@@ -23,7 +23,8 @@ public class UserController {
     @GetMapping
     public String get() {
 
-        return userService.get();
+        userService.get();
+        return "user";
     }
 
 

@@ -7,8 +7,10 @@ public class UserService {
 
     public String getAll(String name) {
 
+
         System.out.println("name -> " + name);
         System.out.println("Inside getAll() method ");
+
         return "Users";
 
     }
@@ -29,11 +31,8 @@ public class UserService {
     }
 
 
-    public String get() {
-
-        System.out.println("Inside get() method ");
-        return "User";
-
+    public void get() {
+        throw new RuntimeException();
     }
 
 
