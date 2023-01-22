@@ -16,7 +16,9 @@ public class UserController {
     @GetMapping("/list")
     public String getAll() {
 
-        return userService.getAll("Ism ");
+        String str = userService.getAll("Akmal ");
+        System.out.println("str = " + str);
+        return str;
     }
 
 

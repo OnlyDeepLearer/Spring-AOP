@@ -32,7 +32,7 @@ public class UserService {
 
 
     public void get() {
-        throw new RuntimeException();
+        throw new RuntimeException("this is runtime exception");
     }
 
 
